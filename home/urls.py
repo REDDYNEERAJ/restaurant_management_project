@@ -3,4 +3,5 @@ from .views import *
 
 urlpatterns = [
     path('menu-categories/',MenuCategoryListView.as_view(),name='menu-categories'),
+    path('menu-categories-func/',menu)
     ]
